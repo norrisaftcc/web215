@@ -13,3 +13,25 @@ Please read and follow the steps in the [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## License
 See [LICENSE](LICENSE)
+
+
+## steps taken in web-steps (marked by step in codelab)
+### codelab step 4
+To install the CLI run the following npm command:
+
+npm -g install firebase-tools
+
+To verify that the CLI has been installed correctly open a console and run:
+
+firebase --version
+Make sure the Firebase version is above 3.3.0
+
+Authorize the Firebase CLI by running:
+
+firebase login
+Make sure you are in the web-start directory then set up the Firebase CLI to use your Firebase Project:
+
+firebase use --add
+Then select your Project ID and follow the instructions.
+
+## next steps
