@@ -42,3 +42,5 @@ then run the app
 Modify the FriendlyChat.prototype.initFirebase function in the scripts/main.js file so that it sets some shortcuts to the Firebase SDK features and initiates auth
 
 (fixed issue: was a typo)
+
+### 7 read messages
