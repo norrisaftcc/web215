@@ -34,4 +34,13 @@ Make sure you are in the web-start directory then set up the Firebase CLI to use
 firebase use --add
 Then select your Project ID and follow the instructions.
 
-## next steps
+### 5
+firebase serve
+then run the app
+
+### 6: user signin
+Modify the FriendlyChat.prototype.initFirebase function in the scripts/main.js file so that it sets some shortcuts to the Firebase SDK features and initiates auth
+
+#### 11/6 
+missing a step -- does not display the signin button.
+(final project works, however)
