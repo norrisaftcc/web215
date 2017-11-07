@@ -41,6 +41,4 @@ then run the app
 ### 6: user signin
 Modify the FriendlyChat.prototype.initFirebase function in the scripts/main.js file so that it sets some shortcuts to the Firebase SDK features and initiates auth
 
-#### 11/6 
-missing a step -- does not display the signin button.
-(final project works, however)
+(fixed issue: was a typo)
