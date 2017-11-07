@@ -44,3 +44,4 @@ Modify the FriendlyChat.prototype.initFirebase function in the scripts/main.js f
 (fixed issue: was a typo)
 
 ### 7 read messages
+### 8 write messages
