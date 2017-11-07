@@ -1,0 +1,178 @@
+{
+  "userSays": [
+    {
+      "id": "7403e082-005b-4a74-9127-217d6e320ae3",
+      "data": [
+        {
+          "text": "over"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e46d4756-1464-4381-b7a3-db401646a4f6",
+      "data": [
+        {
+          "text": "Game\u0027s over"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "afaeee65-82cd-49c7-abef-2f3ca8b0b921",
+      "data": [
+        {
+          "text": "No more guessing"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "31254bfc-c254-41c8-879d-7005d96a6c63",
+      "data": [
+        {
+          "text": "I\u0027m out"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "98440c83-7880-4dd5-8ef7-3ca8c0343d8d",
+      "data": [
+        {
+          "text": "I don\u0027t"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d1fed671-a5de-40a4-9d06-1c814391087f",
+      "data": [
+        {
+          "text": "I don\u0027t want to play again"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2aa7e937-83ac-4e10-9565-370710fc173e",
+      "data": [
+        {
+          "text": "leave"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "37e4ee0d-aaf4-4f22-9cb1-0d71a79a3106",
+      "data": [
+        {
+          "text": "cancel"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a709dd4b-53f4-4ccf-a83f-55cb603dbf28",
+      "data": [
+        {
+          "text": "we\u0027re done here"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c1c2d2cb-a056-47e3-b6fd-a6a9051b7b80",
+      "data": [
+        {
+          "text": "I want to leave"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a7df6838-6cc4-4278-bbb5-bdd1ffdca0ac",
+      "data": [
+        {
+          "text": "I don\u0027t want to play"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "94aafdcd-4522-4020-a2b8-d170ed30a14e",
+      "data": [
+        {
+          "text": "no more"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7b9b4f14-1c42-4a0a-8e2a-3e750f8a3893",
+      "data": [
+        {
+          "text": "I\u0027m done"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "65a22c22-39ad-4d48-8bd2-7c7aeb706c13",
+      "data": [
+        {
+          "text": "quit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b1d212e6-ef58-4f84-a5b5-816e8d231dc5",
+      "data": [
+        {
+          "text": "no"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9bdd6268-68ed-46d9-b2e5-30b64a476a3c",
+  "name": "game-over",
+  "auto": true,
+  "contexts": [
+    "welcome"
+  ],
+  "responses": [
+    {
+      "resetContexts": true,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I\u0027m sorry to see you go, but I\u0027ll remember what we learned here today! While you\u0027re away, try to think of something to stump me. Goodbye!"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

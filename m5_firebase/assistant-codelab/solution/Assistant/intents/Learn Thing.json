@@ -1,0 +1,164 @@
+{
+  "userSays": [
+    {
+      "id": "890f24d0-f465-4781-bcef-96e5ca876a43",
+      "data": [
+        {
+          "text": "I\u0027m thinking of an "
+        },
+        {
+          "text": "elephant",
+          "alias": "guessable-thing",
+          "meta": "@sys.any",
+          "userDefined": false
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "a116bb29-c786-4acc-a807-7935f3e22414",
+      "data": [
+        {
+          "text": "I\u0027m thinking of a "
+        },
+        {
+          "text": "dog",
+          "alias": "guessable-thing",
+          "meta": "@sys.any",
+          "userDefined": false
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "178f77f5-c99e-4f4b-afd8-48256d04b533",
+      "data": [
+        {
+          "text": "A "
+        },
+        {
+          "text": "dog",
+          "alias": "guessable-thing",
+          "meta": "@sys.any",
+          "userDefined": false
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d7b6414a-071a-4e26-befd-eec2aea8d95e",
+      "data": [
+        {
+          "text": "An "
+        },
+        {
+          "text": "elephant",
+          "alias": "guessable-thing",
+          "meta": "@sys.any",
+          "userDefined": false
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "50891f4d-745c-486e-a830-6335aedd3fe0",
+      "data": [
+        {
+          "text": "It\u0027s an "
+        },
+        {
+          "text": "elephant",
+          "alias": "guessable-thing",
+          "meta": "@sys.any",
+          "userDefined": false
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c9d78111-eb0a-4f9b-8143-5af8ef3fc55c",
+      "data": [
+        {
+          "text": "It\u0027s a "
+        },
+        {
+          "text": "dog",
+          "alias": "guessable-thing",
+          "meta": "@sys.any",
+          "userDefined": false
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "fee06c6e-fcce-42b4-9850-bcb6cfca1108",
+  "name": "Learn Thing",
+  "auto": true,
+  "contexts": [
+    "guess",
+    "learn-thing"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "learn-thing",
+      "affectedContexts": [
+        {
+          "name": "guess",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "learn-thing",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "guessable-thing",
+          "value": "$guessable-thing",
+          "prompts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

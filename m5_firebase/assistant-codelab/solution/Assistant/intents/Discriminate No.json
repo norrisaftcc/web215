@@ -1,0 +1,135 @@
+{
+  "userSays": [
+    {
+      "id": "58d6318a-abb5-470b-9671-26690f6607fe",
+      "data": [
+        {
+          "text": "try again"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "def83c7b-f345-4ec1-a9ca-fb7f163f73db",
+      "data": [
+        {
+          "text": "wrong"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eb887861-b908-43cf-b67e-22034194b1dc",
+      "data": [
+        {
+          "text": "you\u0027re wrong"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e629509e-e048-4481-8b68-664503935753",
+      "data": [
+        {
+          "text": "it does not"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bb53a057-4523-454b-a068-e3c819bced13",
+      "data": [
+        {
+          "text": "it\u0027s not"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "17264eed-a703-48e6-ab7e-2ffb73828e9e",
+      "data": [
+        {
+          "text": "it doesn\u0027t"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "51ddd07c-5037-4026-a625-07a3a20f8ac3",
+      "data": [
+        {
+          "text": "I don\u0027t think so"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "ae79bc56-0083-4996-a91c-8b33e32fcb5d",
+      "data": [
+        {
+          "text": "negative"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4702cf67-b8b0-4618-ab93-a0957e98691a",
+      "data": [
+        {
+          "text": "nope"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c0f8ea03-a1e5-4a87-89cc-16f0f4dc2175",
+      "data": [
+        {
+          "text": "No"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "82ac5f88-2ca8-4356-895b-437831243185",
+  "name": "Discriminate No",
+  "auto": true,
+  "contexts": [
+    "question"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "discriminate-no",
+      "affectedContexts": [
+        {
+          "name": "question",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,74 @@
+{
+  "userSays": [
+    {
+      "id": "77827eab-251e-4637-8ea6-ac43311555fb",
+      "data": [
+        {
+          "text": "The question is: \"@sys.any:question?\""
+        }
+      ],
+      "isTemplate": true,
+      "count": 1
+    },
+    {
+      "id": "d91bcd7a-86e2-4b6e-bfc5-bc47a2cb1273",
+      "data": [
+        {
+          "text": "@sys.any:question?"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    }
+  ],
+  "id": "9f659374-98ac-4058-bc96-a547ea3b74a9",
+  "name": "Learn Discrimination",
+  "auto": true,
+  "contexts": [
+    "guess",
+    "answer",
+    "learn-discrimination"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "learn-discrimination",
+      "affectedContexts": [
+        {
+          "name": "guess",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "answer",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "learn-discrimination",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.any",
+          "name": "question",
+          "value": "$question",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

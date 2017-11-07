@@ -1,0 +1,50 @@
+{
+  "userSays": [
+    {
+      "id": "686db7cd-9ef5-4170-8c09-f13ba04cf678",
+      "data": [
+        {
+          "text": "begin"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "00ea29cb-76d8-444c-ad90-e27bddb4332f",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "welcome",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Hi! I\u0027m the Firebase Animal guessing game. I can try to guess which animal you\u0027re thinking of. But if I don\u0027t get it, I will try to learn! Do you want to play?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ]
+}

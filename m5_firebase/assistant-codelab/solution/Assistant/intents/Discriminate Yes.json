@@ -1,0 +1,135 @@
+{
+  "userSays": [
+    {
+      "id": "d1ce5817-b524-4add-ad65-54fecf4a8d4f",
+      "data": [
+        {
+          "text": "affirmative"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a5e674f7-332c-4e57-86ce-e5b5e24afee2",
+      "data": [
+        {
+          "text": "i think so"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5baff06c-6192-4df4-ac1c-1869b3b29cd9",
+      "data": [
+        {
+          "text": "you got it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9d81aa47-ace5-4e5b-990a-eabfc3531d22",
+      "data": [
+        {
+          "text": "that\u0027s it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c876b0c5-4134-45bf-b54a-422e88d662cc",
+      "data": [
+        {
+          "text": "right"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cb53bfbb-b1b0-4056-a9fc-0b54828af0b1",
+      "data": [
+        {
+          "text": "that\u0027s right"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "95374bec-d67a-4889-947c-4bcd66807686",
+      "data": [
+        {
+          "text": "it does"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2937091a-9dba-4143-80bf-50859d589229",
+      "data": [
+        {
+          "text": "Yup"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a7d10b2c-c33b-4d02-89e8-a0e19b550c12",
+      "data": [
+        {
+          "text": "Correct"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bd64e543-0da7-4e3d-8b6d-49683daee4f1",
+      "data": [
+        {
+          "text": "Yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d9dcae2f-0623-4450-9d31-0af629cf32d2",
+  "name": "Discriminate Yes",
+  "auto": true,
+  "contexts": [
+    "question"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "discriminate-yes",
+      "affectedContexts": [
+        {
+          "name": "question",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

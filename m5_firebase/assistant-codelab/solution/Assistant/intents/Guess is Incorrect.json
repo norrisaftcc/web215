@@ -1,0 +1,45 @@
+{
+  "userSays": [
+    {
+      "id": "d7299ad9-9b3a-4403-add1-a11fa8b4a159",
+      "data": [
+        {
+          "text": "No"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e2b24041-9ecb-4a30-bc7a-65838eb56482",
+  "name": "Guess is Incorrect",
+  "auto": true,
+  "contexts": [
+    "guess"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "give-up",
+      "affectedContexts": [
+        {
+          "name": "guess",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

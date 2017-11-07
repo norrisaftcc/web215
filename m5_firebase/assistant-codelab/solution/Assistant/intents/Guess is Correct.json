@@ -1,0 +1,55 @@
+{
+  "userSays": [
+    {
+      "id": "67a7a076-711a-4e5a-ac14-b399a510da11",
+      "data": [
+        {
+          "text": "Yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2c71bd2d-5891-426f-8817-3657300e1e55",
+  "name": "Guess is Correct",
+  "auto": true,
+  "contexts": [
+    "guess"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "welcome",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "guess",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "question",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Hooray!  I\u0027m a pretty good guesser! Would you like to play again?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

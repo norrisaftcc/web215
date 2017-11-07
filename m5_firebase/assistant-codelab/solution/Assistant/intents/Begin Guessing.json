@@ -1,0 +1,165 @@
+{
+  "userSays": [
+    {
+      "id": "a77f2c6d-2275-4a71-bbd1-4fa34f56ac3f",
+      "data": [
+        {
+          "text": "Start guessing"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "96d5d3fa-b8d8-4129-83b6-6415d27743a0",
+      "data": [
+        {
+          "text": "Go"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0e9f4e49-6ff7-41fc-a89f-9b87108f3d37",
+      "data": [
+        {
+          "text": "I\u0027m ready"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "78f11a74-9e0f-41d6-80a0-c8fa289e3b9d",
+      "data": [
+        {
+          "text": "You\u0027ll never guess what I\u0027m thinking of."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1f005f9e-b3e7-448c-bdd3-eef12e16ad87",
+      "data": [
+        {
+          "text": "I would like to play."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b1b88299-caf9-4f64-9d53-f956e1b3638a",
+      "data": [
+        {
+          "text": "Yes, I want to play."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b2bd78fc-9ec8-44b7-950c-d14336f988c7",
+      "data": [
+        {
+          "text": "Let\u0027s start."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5cb59d31-0ea9-4031-9ca9-992364379245",
+      "data": [
+        {
+          "text": "Let\u0027s begin."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7e5efc0b-8635-4350-adad-494d71855686",
+      "data": [
+        {
+          "text": "I want to play."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5db13fa6-e2f0-4bed-98b0-1409feaf6424",
+      "data": [
+        {
+          "text": "Yes, let\u0027s play."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7c35cc62-39f0-43d8-beec-bc4c1fa2861f",
+      "data": [
+        {
+          "text": "Yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "31dbfd83-399e-42e4-8e27-96e977ac5be1",
+      "data": [
+        {
+          "text": "Let\u0027s play"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "aea08c72-42ab-4f2a-a552-dc4589257543",
+  "name": "Begin Guessing",
+  "auto": true,
+  "contexts": [
+    "welcome"
+  ],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "play",
+      "affectedContexts": [
+        {
+          "name": "welcom",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "wel",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "welcome",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Sorry, I can\u0027t play right now."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

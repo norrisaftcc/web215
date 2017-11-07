@@ -1,0 +1,32 @@
+{
+  "description": "A guessing-game Assistant app hosted entirely in Firebase!",
+  "language": "en",
+  "enabledDomainFeatures": [],
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "invocationName": "Firebase Assistant Codelab",
+    "project": "fitz-firebase-guessbot",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [],
+    "endIntentIds": [
+      "9bdd6268-68ed-46d9-b2e5-30b64a476a3c"
+    ],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "FEMALE_2"
+  },
+  "defaultTimezone": "America/Los_Angeles",
+  "webhook": {
+    "url": "https://us-central1-fitz-firebase-guessbot.cloudfunctions.net/assistantcodelab",
+    "headers": {
+      "": ""
+    },
+    "available": true,
+    "useForDomains": false
+  },
+  "isPrivate": false,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.2
+}
